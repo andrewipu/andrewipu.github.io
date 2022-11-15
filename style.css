@@ -1,12 +1,11 @@
 :root {
-    --about-color:cyan;
-    --worked-color:purple;
-    --built-color:green;
-    --timeline-color:red;
-    --contact-color:orange;
-    --footer-color:blue;
+    --memoji-background:#313131;
+    --memoji-shadow:#313131;
     --anchor-accents:#3083DC;
     --anchor-opacity: 48,131,220;/*Decimal RGB version of the above color*/
+    --title-color:#FFFFFF;
+    --title-background:#3083DC;
+    --title-accent:#0051a8;
     --JetBrains:'JetBrains Mono', monospace;
     --Roboto:'Roboto', sans-serif;
 }
@@ -74,7 +73,7 @@ a:hover[type="res-button"] {
 }
 
 .sec-home {
-    border-bottom:4px solid black;
+    /*border-bottom:4px solid black;*/
     width:100%;
     height:70vh;
     overflow: hidden;
@@ -139,11 +138,26 @@ a:hover[type="more-bttn"] {
 }
 
 #memoji {
-    border:2px solid blue;
+    background-color:var(--memoji-background);
+    position:relative;
+    top:46px;
+    border-radius: 8px;
+    z-index: 0;
+}
+
+.memoji_background {
+    width:100%;
+    height:80%;
+    border:5px solid var(--memoji-shadow);
+    border-radius:10px;
+    z-index: -1;
+    position:absolute;
+    top:16px;
+    left:-30px;
 }
 
 .about-center {
-    border:2px solid red;
+    /*border:2px solid red;*/
     width:1170px;
     display:flex;
     flex-direction: row;
@@ -153,15 +167,21 @@ a:hover[type="more-bttn"] {
 }
 
 .about_me_title {
+    font-family: var(--Roboto);
     width: fit-content;
+    padding:10px 5px;
     position:relative;
-    top:-30px;
-    box-shadow:5px 5px red;
+    top:-50px;
+    background-color:var(--title-background);
+    color:var(--title-color);
+    box-shadow:7px 7px var(--title-accent);
 }
 
 .about-img {
     margin-left:10px;
     margin-right:50px;
+    position:relative;
+    top:-55px;
 }
 
 .about-info {
