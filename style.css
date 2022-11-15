@@ -177,6 +177,15 @@ a:hover[type="more-bttn"] {
     box-shadow:7px 7px var(--title-accent);
 }
 
+.about-dash {
+    width:70%;
+    height:5px;
+    background-color:var(--anchor-accents);
+    position:relative;
+    left:130px;
+    top:-20px;
+}
+
 .about-img {
     margin-left:10px;
     margin-right:50px;
