@@ -6,9 +6,52 @@
     --title-color:#FFFFFF;
     --title-background:#3083DC;
     --title-accent:#0051a8;
+    --shadow:#d4d4d4;
     --JetBrains:'JetBrains Mono', monospace;
     --Roboto:'Roboto', sans-serif;
 }
+
+ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+    position: relative;
+    left: 0.8em;
+}
+
+li {
+    position: relative;
+    padding-left: 22px;
+    line-height:1.6em;
+}
+
+li:before {
+    /*
+    The desired width gets defined in two places: The element width, and background size.
+    The height only gets defined once, in background size.
+    */
+    position: absolute;
+    display: block;
+    content: '\2022'; /* bullet point, for screen readers */
+    text-indent: -999999px; /* move the bullet point out of sight */
+    left: -.75em;
+    /*width: .8em; /* desired width of the image */
+    width:1.6em;
+    height: 1.5em; /* unrelated to image height; this is so it gets snipped */
+    background-repeat: no-repeat;
+    background-image: url('backhand-index-pointing-right-dark-skin-tone-svgrepo-com.svg');
+    /*background-size: .8em 1.4em;*/
+    background-size: 1.6em 2.8em;
+    background-position: 0 -0.6em;
+    /*background-color: red;*/
+}
+
+.task_list {
+    font-size: 16px;
+}
+
+
+
 
 /*Normalization*/
 *,
@@ -23,7 +66,7 @@ html {
 }
 
 body {
-    background-color: #F8F9FA;
+    background-color: #f8f9fa;
 }
 
 header {
@@ -207,8 +250,90 @@ a:hover[type="more-bttn"] {
 .sec-worked {
     /*background-color:var(--worked-color);*/
     border-bottom:4px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     width:100%;
-    height:600px;
+    height:800px;
+}
+
+.container-worked {
+    position:relative;
+    left:-100px;
+    width:1000px;
+    height:700px;
+    border: 5px solid red;
+}
+
+.worked-title {
+    font-family: var(--Roboto);
+    background-color:var(--title-background);
+    color:var(--title-color);
+    width:fit-content;
+    padding:10px 5px;
+    margin:5px 10px;
+    box-shadow: 7px 7px var(--title-accent);
+}
+
+
+.worked-dash {
+    width:50%;
+    height:5px;
+    background-color:var(--anchor-accents);
+    position:relative;
+    left:231px;
+    top:-28px;
+}
+
+/*.work_place_1 {
+    /*border:2px solid blue;
+    font-family: var(--Roboto);
+    width:fit-content;
+    margin-top:22px;
+    margin-left:40px;
+    padding:5px 5px;
+    background-color:#FFFFFF;
+    color:#313131;
+    box-shadow: 7px 7px #eaeaea /*#eaeaea;
+}*/
+
+.work_place_1 {
+    /*border:2px solid blue;*/
+    font-family: var(--Roboto);
+    width:fit-content;
+    /*margin-top:22px;
+    margin-left:40px;*/
+    margin:22px auto;
+    padding:5px 5px;
+    background-color:#FFFFFF;
+    color:#313131;
+    box-shadow: 7px 7px #eaeaea /*#eaeaea*/;
+}
+
+.work_duration {
+    font-family: var(--JetBrains);
+    text-align: center;
+    color: var(--title-accent);
+}
+
+.org_description {
+    width:70%;
+    height:fit-content;
+    margin:20px auto;
+    border:2px solid yellow;
+    padding:10px;
+    text-align: justify;
+    font-family: var(--Roboto);
+    line-height:1.5;
+    font-size: 14px;
+}
+
+.job_tasks {
+    border:2px solid orange;
+    margin:20px auto;
+    width:70%;
+    height:fit-content;
+    font-family: var(--Roboto);
 }
 
 .sec-built {
