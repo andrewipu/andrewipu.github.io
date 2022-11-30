@@ -1,10 +1,11 @@
 :root {
+    --background:#f8f9fa;
     --memoji-background:#313131;
     --memoji-shadow:#313131;
     --anchor-accents:#3083DC;
     --anchor-opacity: 48,131,220;/*Decimal RGB version of the above color*/
     --title-color:#FFFFFF;
-    --title-background:#3083DC;
+    --title-background:#3083dc;
     --title-accent:#0051a8;
     --shadow:#d4d4d4;
     --JetBrains:'JetBrains Mono', monospace;
@@ -122,10 +123,24 @@ a:hover[type="res-button"] {
     overflow: hidden;
     min-height: 500px;
     margin-top: 200px;
-    /*text-align:left;
-    position:relative;
-    left:400px;
-    margin-top: 270px;*/ /*This causes a bug where borders were leaving gaps on horizontal scroll*/
+    /*margin-top: 270px;*/ /*This causes a bug where borders were leaving gaps on horizontal scroll*/
+}
+
+.bla {
+    position: relative;
+    width: 100%;
+    height:80vh;
+}
+
+.bla:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 12px -4px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .div_home {
@@ -175,9 +190,12 @@ a:hover[type="more-bttn"] {
     /*background-color:var(--about-color);*/
     border-bottom:4px solid black;
     width:100%;
-    height:800px;  
+    height:105vh;  
     display:flex;
     overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #memoji {
@@ -202,6 +220,8 @@ a:hover[type="more-bttn"] {
 .about-center {
     /*border:2px solid red;*/
     width:1170px;
+    padding:75px 20px 23px 50px;
+    height:fit-content;
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -257,12 +277,23 @@ a:hover[type="more-bttn"] {
     height:800px;
 }
 
-.container-worked {
+/*.container-worked {
     position:relative;
     left:-100px;
     width:1000px;
     height:700px;
     border: 5px solid red;
+    background-color:var(--background)
+}*/
+
+.container-worked {
+    position:relative;
+    left:-100px;
+    width:1000px;
+    height:600px;
+    padding-top:20px;
+    border: 5px solid red;
+    background-color:var(--background);
 }
 
 .worked-title {
@@ -320,7 +351,7 @@ a:hover[type="more-bttn"] {
     width:70%;
     height:fit-content;
     margin:20px auto;
-    border:2px solid yellow;
+    /*border:2px solid yellow;*/
     padding:10px;
     text-align: justify;
     font-family: var(--Roboto);
@@ -329,7 +360,7 @@ a:hover[type="more-bttn"] {
 }
 
 .job_tasks {
-    border:2px solid orange;
+    /*border:2px solid orange;*/
     margin:20px auto;
     width:70%;
     height:fit-content;
