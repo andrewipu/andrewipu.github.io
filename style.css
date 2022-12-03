@@ -193,7 +193,7 @@ a:hover[type="more-bttn"] {
     height:105vh;  
     display:flex;
     overflow: hidden;
-    display:flex;
+    display:flex; /*This is repeated*/
     align-items: center;
     justify-content: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 12px -4px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -374,19 +374,69 @@ a:hover[type="more-bttn"] {
     font-family: var(--Roboto);
 }
 
-.sec-built {
+.sec-projects {
     /*background-color:var(--built-color);*/
     border-bottom:4px solid black;
     width:100%;
-    height:300px;
+    height:90vh;
+    /*display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;*/
 }
 
-.sec-timeline {
-    /*background-color:var(--timeline-color);*/
+.container-projects {
+    margin:60px auto;
+    display:flex;
+    width:95%;
+    height:600px;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.projects-title {
+    width:fit-content;
+    height:fit-content;
+    margin:30px auto;
+    padding:10px 5px;
+    font-family: var(--Roboto);
+    background-color:var(--title-background);
+    color:var(--title-color);
+    box-shadow: 7px 7px var(--title-accent);
+}
+
+
+/*.projects-dash {
+    width:200px;
+    height:10px;
+    background-color: yellow;               Do we really need a dash?
+    position: absolute;
+}*/
+
+.project-card-1, .project-card-2, .project-card-3,
+.project-card-4 {
+    margin-top: 100px;
+    width:400px;
+    height:390px;
+    background-color:red;
+}
+
+/*.project-card-1 {
+    margin-left:40px;
+}
+
+.project-card-4 {
+    margin-right:40px;
+}
+
+/*.sec-timeline {
+    /*background-color:var(--timeline-color);
     border-bottom:4px solid black;
     width:100%;
     height:300px;
-}
+}*/
 
 .sec-contact {
     /*background-color:var(--contact-color);*/
