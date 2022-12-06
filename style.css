@@ -1,7 +1,7 @@
 :root {
     --background:#f8f9fa;
-    --memoji-background:#313131;
-    --memoji-shadow:#313131;
+    --memoji-background:#d3d5d6;
+    --memoji-shadow:#d3d5d6;
     --anchor-accents:#3083DC;
     --anchor-opacity: 48,131,220;/*Decimal RGB version of the above color*/
     --title-color:#FFFFFF;
@@ -190,7 +190,7 @@ a:hover[type="more-bttn"] {
     /*background-color:var(--about-color);*/
     /*border-bottom:4px solid black;*/
     width:100%;
-    height:105vh;  
+    height:90vh;  
     display:flex;
     overflow: hidden;
     display:flex; /*This is repeated*/
@@ -283,7 +283,7 @@ a:hover[type="more-bttn"] {
 .divider {
     position: absolute;
     /*top:3029px;*/
-    top:3070px;
+    top:2970px;
     width:80%;
     height:5px;
     background-color: #b5c4d4;
@@ -294,12 +294,13 @@ a:hover[type="more-bttn"] {
 .sec-worked {
     /*background-color:var(--worked-color);*/
     /*border-bottom:4px solid black;*/
+    /*border:4px solid red;*/
     display:flex;
     align-items: center;
     justify-content: center;
     width:100%;
     /*height:800px;*/
-    height:100vh;
+    height:105vh;
 }
 
 /*.container-worked {
@@ -312,7 +313,14 @@ a:hover[type="more-bttn"] {
 }*/
 
 .container-worked {
-    position:relative;
+    margin-top: 0px;
+    width:1100px;
+    height:750px;
+    /*border:2px solid yellow;*/
+}
+
+.container-KMRC {
+    margin:0px auto;
     width:1000px;
     height:600px;
     padding-top:20px;
@@ -320,10 +328,12 @@ a:hover[type="more-bttn"] {
     background-color:var(--background);
     border-radius: 6px;
     /*box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;*/
-    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+    /*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; /*really nice*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /*box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);*/ /*my initial pick*/
 }
 
-.worked-title {
+/*.worked-title {
     font-family: var(--Roboto);
     background-color:var(--title-background);
     color:var(--title-color);
@@ -341,6 +351,40 @@ a:hover[type="more-bttn"] {
     position:relative;
     left:231px;
     top:-28px;
+}*/
+
+.worked-header {
+    width:900px;
+    height:fit-content;
+    padding:10px 0px;
+    /*background-color: yellow;*/
+    position:relative;
+    top:-400px;
+    left:-140px;
+    z-index: 1;
+}
+
+.worked-title {
+    font-family: var(--Roboto);
+    background-color:var(--title-background);
+    color:var(--title-color);
+    width:fit-content;
+    padding:10px 5px;
+    margin-bottom: 60px;
+    box-shadow: 7px 7px var(--title-accent);
+    /*position: relative;
+    top:-380px;
+    left:-15px;*/
+}
+
+
+.worked-dash {
+    width:70%;
+    height:5px;
+    background-color:var(--anchor-accents);
+    position:relative;
+    left:240px;
+    top:-84px;
 }
 
 /*.work_place_1 {
@@ -397,6 +441,7 @@ a:hover[type="more-bttn"] {
 .sec-projects {
     /*background-color:var(--built-color);*/
     /*border-bottom:4px solid black;*/
+    /*border:4px solid blue;*/
     width:100%;
     height:110vh;
     /*display:flex;
@@ -409,7 +454,7 @@ a:hover[type="more-bttn"] {
     width:fit-content;
     height:fit-content;
     /*margin-top:109px;*/
-    margin-top:200px;
+    margin-top:150px;
     margin-left: auto;
     margin-right: auto;
     padding:10px 5px;
