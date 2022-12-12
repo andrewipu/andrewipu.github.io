@@ -126,7 +126,6 @@ a:hover[type="res-button"] {
     overflow: hidden;
     min-height: 500px;
     margin-top: 200px;
-    /*margin-top: 270px;*/ /*This causes a bug where borders were leaving gaps on horizontal scroll*/
 }
 
 .bla {
@@ -144,7 +143,6 @@ a:hover[type="res-button"] {
     right: 0;
     bottom: 0;
     left: 0;
-    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 12px -4px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;*/
     box-shadow: rgba(0, 0, 0, 0.25) 0px 13px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     
 }
@@ -164,7 +162,6 @@ a:hover[type="res-button"] {
     right: 0;
     bottom: 0;
     left: 0;
-    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 12px -4px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;*/
     box-shadow: rgba(0, 0, 0, 0.25) 0px 13px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     
 }
@@ -223,7 +220,6 @@ a:hover[type="more-bttn"] {
     align-items: center;
     justify-content: center;
     background-color:#003772;
-    /*box-shadow: rgba(93, 50, 50, 0.25) 0px 13px 12px -4px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;*/
 }
 
 #memoji {
@@ -257,9 +253,6 @@ a:hover[type="more-bttn"] {
     align-items: center;
     margin-top:0px;
     border-radius: 6px;
-    /*box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;*/
-    /*box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);*/
-    /*background-color:#055fc0;*/
 }
 
 .familiar-tech {
@@ -273,7 +266,6 @@ a:hover[type="more-bttn"] {
 }
 
 .tech-list {
-    /*margin-top: 30px;*/
     padding-top:10px;
     padding-left: 10px;
     /*background-color:#353535;*/
@@ -301,7 +293,6 @@ a:hover[type="more-bttn"] {
     height: 150px;
     /*border: 2px solid blue;*/
     padding-left:2px;
-    /*margin-left: 170px;*/
 }
 
 .list-languages > p {
@@ -319,7 +310,6 @@ a:hover[type="more-bttn"] {
     width: 150px;
     height: 150px;
     /*border: 2px solid red;*/
-    /*margin-right: 170px;*/
     padding-left:2px;
 }
 
@@ -376,15 +366,11 @@ a:hover[type="more-bttn"] {
 
 .divider {
     position: absolute;
-    /*top:3029px;*/
     top:1947px;
     width:100%;
     height:5px;
     background-color: #002750;
     border-radius:2px;
-    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 12px -4px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;*/
-    /*box-shadow: rgba(255, 255, 255, 0.56) 0px 0px 70px 1px;*/
-    /*box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;*/
 }
 
 .sec-worked {
@@ -395,18 +381,8 @@ a:hover[type="more-bttn"] {
     align-items: center;
     justify-content: center;
     width:100%;
-    /*height:800px;*/
     height:103vh;
 }
-
-/*.container-worked {
-    position:relative;
-    left:-100px;
-    width:1000px;
-    height:700px;
-    border: 5px solid red;
-    background-color:var(--background)
-}*/
 
 .container-worked {
     margin-top: 0px;
@@ -423,31 +399,8 @@ a:hover[type="more-bttn"] {
     /*border: 5px solid green;*/
     background-color:#002d5e; /*#00346b*/
     border-radius: 6px;
-    /*box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;*/
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; /*really nice*/
-    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;**/
-    /*box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);*/ /*my initial pick*/
 }
-
-/*.worked-title {
-    font-family: var(--Roboto);
-    background-color:var(--title-background);
-    color:var(--title-color);
-    width:fit-content;
-    padding:10px 5px;
-    margin:5px 10px;
-    box-shadow: 7px 7px var(--title-accent);
-}
-
-
-.worked-dash {
-    width:50%;
-    height:5px;
-    background-color:var(--anchor-accents);
-    position:relative;
-    left:231px;
-    top:-28px;
-}*/
 
 .worked-header {
     width:900px;
@@ -469,9 +422,6 @@ a:hover[type="more-bttn"] {
     margin-bottom: 60px;
     box-shadow: 7px 7px var(--title-accent);
     font-size:2em;
-    /*position: relative;
-    top:-380px;
-    left:-15px;*/
 }
 
 
@@ -483,18 +433,6 @@ a:hover[type="more-bttn"] {
     left:290px;
     top:-89px;
 }
-
-/*.work_place_1 {
-    /*border:2px solid blue;
-    font-family: var(--Roboto);
-    width:fit-content;
-    margin-top:22px;
-    margin-left:40px;
-    padding:5px 5px;
-    background-color:#FFFFFF;
-    color:#313131;
-    box-shadow: 7px 7px #eaeaea /*#eaeaea;
-}*/
 
 .work_place_1 {
     /*border:2px solid blue;*/
@@ -545,13 +483,8 @@ a:hover[type="more-bttn"] {
 .sec-projects {
     /*background-color:var(--built-color);*/
     /*border-bottom:4px solid black;*/
-    /*border:4px solid blue;*/
     width:100%;
     height:100vh;
-    /*display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-between;*/
 }
 
 .projects-title {
@@ -722,3 +655,5 @@ a:hover[type="more-bttn"] {
     position:absolute;
     align-self: flex-end;
 }
+
+/*************************************************************************************************************/
