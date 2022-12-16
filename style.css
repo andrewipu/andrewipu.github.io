@@ -673,6 +673,9 @@ a:hover[type="more-bttn"] {
 @media (min-width: 1281px) {
   
     /* CSS */
+    .resume-button-m {
+        display: none;
+    }
     
   }
   
@@ -757,6 +760,7 @@ a:hover[type="more-bttn"] {
         margin-top: -30px;
         margin-left:4px;
         position: absolute;
+        left:0px;
     }
 
     .nav_links {
@@ -826,14 +830,15 @@ a:hover[type="more-bttn"] {
     }
 
     .resume-button {
-        /*display:none;*/
-        border:3px solid var(--anchor-accents);
-        border-radius: 4px;
-        padding:10px 30px;
-        /*margin-right:10px;*/
-        position:absolute;
-        top: 452px;
-        right:0px
-    }
-
+        display:none;
   }
+
+    .resume-button-m {
+        color:var(--anchor-accents);
+        margin-right: 10px;
+        font-size:1.25em;
+        position:relative;
+        top:-15px;
+    }   
+
+}
