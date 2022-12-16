@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport width=device-width, initial-scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href=".\style.css"/>
         <title>Portfolio V1</title>
         <!--JetBrains Mono Font-->
@@ -17,7 +17,7 @@
     <body>
         <header class="Header">
             <!--Logo Image-->
-            <svg id="logo_hdr" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs"  viewBox="0 0 1000 204">
+            <svg class="logo_hdr" id="logo" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs"  viewBox="0 0 1000 204">
             <g transform="matrix(1,0,0,1,-0.6060600219708476,-0.1845697565713067)"><svg viewBox="0 0 396 81" data-background-color="#ffffff" preserveAspectRatio="xMidYMid meet" height="204" width="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs></defs><g id="tight-bounds" transform="matrix(1,0,0,1,0.23999982748796356,0.07328505040331379)"><svg viewBox="0 0 395.52 80.85342989919336" height="80.85342989919336" width="395.52">
             <g><svg viewBox="0 0 554.0049895724408 113.25142492970947" height="80.85342989919336" width="395.52"><g>
@@ -38,18 +38,20 @@
             <script src="https://kit.fontawesome.com/f96c8b4274.js" crossorigin="anonymous"></script>
             
             <nav class="nav_links">
-                <a href="" id=""><span style='color:var(--anchor-accents)'>01.</span> Home</a>
-                <a href="" id=""><span style='color:var(--anchor-accents)'>02.</span> About</a>
-                <a href="" id=""><span style='color:var(--anchor-accents)'>03.</span> Experience</a>
-                <a href="" id=""><span style='color:var(--anchor-accents)'>04.</span> What I've built</a>
+                <a href="" id=""><span class="nav_style" style='color:var(--anchor-accents)'>01.</span> Home</a>
+                <a href="" id=""><span class="nav_style" style='color:var(--anchor-accents)'>02.</span> About</a>
+                <a href="" id=""><span class="nav_style" style='color:var(--anchor-accents)'>03.</span> Experience</a>
+                <a href="" id=""><span class="nav_style" style='color:var(--anchor-accents)'>04.</span> Projects</a>
                 <!--a href="" id=""><span style='color:var(--anchor-accents)'>05.</span> Timeline</a>-->
-                <a href="" id=""><span style='color:var(--anchor-accents)'>05.</span> Contact</a>
+                <a href="" id=""><span class="nav_style" style='color:var(--anchor-accents)'>05.</span> Contact</a>
             </nav>
             <!--Resume Button-->
             <a type="res-button" class="resume-button" href="#" target="_blank">Resumé</a>
+            
         </header>
+
         <main>
-            <div class="bla-home"> <!--Necessary for the border-shadow (bottom shadow only)-->
+            <div class="blas-home"> <!--Necessary for the border-shadow (bottom shadow only)-->
             <section class="sec-home">
                 <div class="div_home">
                 <h4 id="home-h4">Hello World! My name is</h4>
@@ -65,11 +67,11 @@
             </section>
             </div>
 
-            <div class="bla">
+            <!--<div class="bla">
             <section class="sec-about">
                 <div class="about-center">
                     <article class="about-img">
-                        <!--memoji background border-->
+                        <--memoji background border>
                         <div class="memoji_background"></div>
                         <img src="memoji-1.png" alt="A photo of my memoji waving" id="memoji" />
                     </article>
@@ -107,32 +109,32 @@
                     <h2 class="list-title">Here's some tools and technologies I am familiar with!</h2>
                     <div class="tech-list">
                         <div class="list-languages">
-                        <!--Python-->
+                        <--Python>
                         <p><i class="fa-brands fa-python"></i> Python</p>
-                        <!--HTML-->
+                        <--HTML>
                         <p><i class="fa-brands fa-html5"></i> HTML</p>
-                        <!--CSS-->
+                        <--CSS>
                         <p><i class="fa-brands fa-css3"></i> CSS</p>
                         </div>
 
                         <div class="list-tools">
-                        <!--Git-->
+                        <--Git>
                         <p><i class="fa-brands fa-git"></i> Git</p>
-                        <!--VS CODE-->
+                        <--VS CODE>
                         <p><i class="fa-solid fa-code"></i> VS Code</p>
-                        <!--Pi-->
+                        <--Pi>
                         <p><i class="fa-brands fa-raspberry-pi"></i> Pi-hole</p>
                         </div>
                     </div>
                 </div>
             </section>
-            </div>
-            <!--Section Divider>
+            </div>-->
+            <!--Section Divider
             <section class="section-divider">
             <div class="divider"></div>
             </section>-->
 
-            <section class="sec-worked">
+            <!--<section class="sec-worked">
                 <div class="container-worked">
                     <h2 class="worked-title">Where I've worked</h2>
                     <div class="worked-dash"></div>
@@ -150,15 +152,15 @@
                             </article>
                         </div>
                     </div>
-            </section>
+            </section>-->
             
-            <section class="sec-projects">
+            <!--<section class="sec-projects">
                 <h2 class="projects-title">Some of my projects</h2>
                 <div class="projects-description-box">
                     <article class="projects-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sem in velit aliquam luctus. Integer maximus metus sit amet egestas dapibus. Suspendisse scelerisque convallis dapibus. Quisque ante arcu, tristique a posuere nec, malesuada aliquam lectus. Phasellus vitae ante non risus luctus suscipit vel sed ante.</article>
                 </div>
                 <div class="container-projects">
-                <!--<div class="projects-dash"></div>--> <!--Do we really need a dash??-->
+                <--<div class="projects-dash"></div>--> <!--Do we really need a dash??>
                 <div class="project-card-1">
                     <img class="card2-img" src="QE Tribute project.PNG" alt="Screenshot of my Tribute page for Queen Elizabeth III"/>
                     <div class="card1-project-title-container">
@@ -184,41 +186,41 @@
                     </div>
                 </div>
             </div>
-            </section>
+            </section>-->
             <!--<section class="sec-timeline">Timeline</section>-->
-            <section class="sec-footer">
+            <!--<section class="sec-footer">
                 <div class="container-footer">
                     <h1 class="footer-heading">Let's join forces :)</h1>
-                    <!--Perhaps a quote in between these two elements...something that inspires collaborating, perserverence..-->
+                    <--Perhaps a quote in between these two elements...something that inspires collaborating, perserverence..
                     <div class="socials">
-                        <!--FreeCodeCamp Profile-->
+                        <--FreeCodeCamp Profile>
                         <a href="#">
                             <p><i class="fa-brands fa-free-code-camp"></i> freeCodeCamp Profile</p>
                         </a>
                         
-                        <!--Twitter-->
+                        <--Twitter>
                         <a href="#">
                             <p><i class="fa-brands fa-twitter"></i> Twitter</p>
                         </a>
                         
-                        <!--LinkedIn-->
+                        <--LinkedIn>
                         <a href="#">
                             <p><i class="fa-brands fa-linkedin"></i> LinkedIn</p>
                         </a>
                         
-                        <!--Email-->
+                        <--Email>
                         <a href="#">
                             <p><i class="fa-solid fa-at"></i> Shoot me an E-mail</p>
                         </a>
 
-                        <!--GitHub-->
+                        <--GitHub>
                         <a href="#">
                             <p><i class="fa-brands fa-square-github"></i> GitHub</p>
                         </a>
                     </div>
                 </div>
                     <p class="foot-note">Designed and Created by Andrew Ipu</p>
-            </section>
+            </section>-->
         </main>
     </body>
 </html>

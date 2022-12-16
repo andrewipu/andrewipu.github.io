@@ -82,11 +82,14 @@ header {
 }
 
 
-#logo_hdr {
+.logo_hdr {
     /*background: red;*/
-    width:200px; 
+    /*width:200px; 
     height:100px;
-    min-width: 100px;
+    min-width: 100px;*/
+    width:15em;
+    /*min-width:8em;*/
+    height:auto;
 }
 
 .nav_links {
@@ -168,7 +171,8 @@ a:hover[type="res-button"] {
 
 .div_home {
     position:absolute;
-    left:20%
+    left:20%;
+    z-index: 1;
 }
 
 #home-h4 {
@@ -202,6 +206,7 @@ a:hover[type="res-button"] {
     top:40px;
     font-family: var(--JetBrains);
     color: var(--anchor-accents);
+    
 }
 
 a:hover[type="more-bttn"] {
@@ -656,4 +661,179 @@ a:hover[type="more-bttn"] {
     align-self: flex-end;
 }
 
-/*************************************************************************************************************/
+/************************************************RESPONSIVE-DESIGN******************************************/
+            /*To apply styles when the browser window is WIDER than a certain width, use min-width.*/
+                    /*Use the max-width media feature to apply styles below a certain width*/
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width:420px) {
+    
+    /* CSS */
+
+    html {
+        background-color:red;
+        width: 100%;
+    }
+    
+    body {
+        background-color:#f8f9fa;
+        width:100%;
+    }
+
+    header {
+        background-color:var(--background);
+        width: 100%;
+        height:12vh;
+        justify-content:center;
+        padding-top:5px;
+        /*background-color:green;*/
+    }
+
+    .logo_hdr {
+        /*background-color: blue;*/
+        max-width: 50vw;
+        max-height:50vh;
+        width:35%;
+        height:fit-content;
+        margin-top: -30px;
+        margin-left:4px;
+        position: absolute;
+    }
+
+    .nav_links {
+        font-size: .6em;
+        display:flex;
+        justify-content: space-between;
+        align-self:flex-end;  
+        flex-direction: row;
+        width:100%;
+        margin:0px 20px;
+        margin-bottom: 5px;
+        /*background-color:green;*/
+    }
+
+    .nav_links > a {
+        padding-left:0px;
+        font-weight: 500;
+    }
+
+    .nav_style {
+        display: none;
+    }
+
+    .sec-home {
+        width:100%;
+        height:100vh;
+    }
+
+    .div_home {
+        position: absolute;
+        /*border:2px solid yellow;*/
+        top:130px;
+        left:10px;
+    }
+
+    #home-h1, #home-h1b {
+        font-family: var(--Roboto);
+        font-size: 2.5em;
+        font-weight: 900;
+        margin-bottom:5px;
+    }
+
+    #home-p1 {
+        margin-top: 20px;
+    }
+
+    #home-p1, #home-p2 {
+        font-family: var(--Roboto);
+        font-size: 1.1em;
+        line-height: 1.3;
+    }
+
+    #home-h4 {
+        font-family: var(--JetBrains);
+        font-size:0.7em;
+        margin-bottom:10px;
+        color:var(--anchor-accents);
+    }
+
+    .see-more_button {
+        /*display:none;*/
+        border:3px solid var(--anchor-accents);
+        border-radius:4px;
+        padding:10px 20px;
+        position:relative;
+        top:40px;
+    }
+
+    .resume-button {
+        /*display:none;*/
+        border:3px solid var(--anchor-accents);
+        border-radius: 4px;
+        padding:10px 30px;
+        /*margin-right:10px;*/
+        position:absolute;
+        top: 452px;
+        right:0px
+    }
+
+  }
