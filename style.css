@@ -752,7 +752,7 @@ a:hover[type="more-bttn"] {
     }
 
     .logo_hdr {
-        background-color: blue;
+        /*background-color: blue;*/
         max-width: 50vw;
         max-height:50vh;
         width:35%;
