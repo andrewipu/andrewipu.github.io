@@ -768,7 +768,7 @@ a:hover[type="more-bttn"] {
     }
 
     .nav_links {
-        font-size: .6em;
+        font-size: .7em;
         display:flex;
         align-self:flex-end;  
         flex-direction: row;
@@ -850,6 +850,7 @@ a:hover[type="more-bttn"] {
         height:2px;
         background-color:var(--anchor-accents);
         border-radius: 4px;
+        margin-top:2px;
     }
 
 }
