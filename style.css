@@ -799,9 +799,8 @@ a:hover[type="more-bttn"] {
 
     #home-h1, #home-h1b {
         font-family: var(--Roboto);
-        font-size: 2.5em;
+        font-size: 2.8em;
         font-weight: 900;
-        margin-bottom:5px;
     }
 
     #home-p1 {
@@ -810,7 +809,7 @@ a:hover[type="more-bttn"] {
 
     #home-p1, #home-p2 {
         font-family: var(--Roboto);
-        font-size: 1.1em;
+        font-size: 1em;
         line-height: 1.3;
     }
 
