@@ -903,6 +903,7 @@ a:hover[type="more-bttn"] {
         width:100%;
         flex-direction: column;
         padding: 0px;
+        height:100%;
     }
 
     .about-img {
@@ -911,22 +912,24 @@ a:hover[type="more-bttn"] {
         position:relative;
         top:-55px;*/
         margin:0px;
-        position: static;
+        position: relative;
+        top:0px;
+
     }
 
     .memoji_background {
-        width:250px;
-        height:29%;
+        width:245px;
+        height:222px;
         /*border:5px solid var(--memoji-shadow);*/
-        border:5px solid var(--memoji-shadow);
+        border:5px solid var(--memoji-background);
         border-radius:10px;
         z-index: 1;
         /*position:absolute;
         top:16px;
         left:-30px;*/
         position: absolute;
-        top:830px;
-        left:33px
+        top:0px;
+        left:0px;
     }
 
     #memoji {
@@ -935,8 +938,8 @@ a:hover[type="more-bttn"] {
         top:46px;*/
         border-radius: 8px;
         position: relative;
-        top:18px;
-        left: 15px;
+        top:20px;
+        left:15px;
         z-index: 1;
         width:250px;
         height:auto;
