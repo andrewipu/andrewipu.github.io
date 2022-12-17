@@ -848,7 +848,7 @@ a:hover[type="more-bttn"] {
     .nav-underline {
         width:100%;
         height:2px;
-        background-color:red;
+        background-color:var(--anchor-accents);
         border-radius: 4px;
     }
 
