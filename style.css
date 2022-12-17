@@ -768,13 +768,13 @@ a:hover[type="more-bttn"] {
     }
 
     .nav_links {
-        font-size: .7em;
+        font-size: .6em;
         display:flex;
         align-self:flex-end;  
         flex-direction: row;
         width:100%;
         margin:0px;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
         justify-content:space-around;
         /*background-color:green;*/
         /*border: 1px solid red;*/
