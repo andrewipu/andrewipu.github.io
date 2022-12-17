@@ -743,12 +743,12 @@ a:hover[type="more-bttn"] {
     }
 
     header {
-        background-color:var(--background);
+        /*background-color:var(--background);*/
         width: 100%;
         height:12vh;
         justify-content:center;
         padding-top:5px;
-        /*background-color:green;*/
+        /*background-color:yellow;*/
     }
 
     .logo_hdr {
@@ -766,13 +766,14 @@ a:hover[type="more-bttn"] {
     .nav_links {
         font-size: .6em;
         display:flex;
-        justify-content: space-between;
         align-self:flex-end;  
         flex-direction: row;
         width:100%;
-        margin:0px 20px;
+        margin:0px;
         margin-bottom: 5px;
+        justify-content:space-around;
         /*background-color:green;*/
+        /*border: 1px solid red;*/
     }
 
     .nav_links > a {
@@ -835,10 +836,10 @@ a:hover[type="more-bttn"] {
 
     .resume-button-m {
         color:var(--anchor-accents);
-        margin-right: 10px;
         font-size:1.25em;
-        position:relative;
-        top:-15px;
+        position:absolute;
+        right:15px;
+        top:20px;
     }   
 
 }
