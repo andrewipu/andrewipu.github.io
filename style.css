@@ -892,22 +892,20 @@ a:hover[type="more-bttn"] {
     /* About Section */
 
     .sec-about {
-        height:fit-content;
-        /*border:3px solid yellow;*/
+        height:190vh;
+        border:3px solid yellow;
         flex-direction: row;
         align-items: flex-start;
-        overflow:scroll;
     }
 
     .about-center {
         margin-top:30px;
-        /*border:3px solid red;*/
+        border:3px solid red;
         width:100%;
         flex-direction: column;
         padding: 0px;
-        height:fit-content;
+        height:190vh;
         border-radius:0px;
-        overflow:scroll;
     }
 
     .about-img {
