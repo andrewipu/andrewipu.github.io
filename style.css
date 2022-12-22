@@ -912,10 +912,12 @@ a:hover[type="more-bttn"] {
     /* About Section */
 
     .sec-about {
-        height:185vh;
-        /*border:3px solid yellow;*/
+        /*height:185vh;*/
+        height:250vh;
+        border:3px solid yellow;
         flex-direction: row;
         align-items: flex-start;
+        flex-wrap: wrap;
     }
 
     .about-center {
@@ -924,8 +926,10 @@ a:hover[type="more-bttn"] {
         width:100%;
         flex-direction: column;
         padding: 0px;
-        height:185vh;
+        height:180vh;
+        /*height:250vh;*/
         border-radius:0px;
+        border:2px solid red;
     }
 
     .about-img {
@@ -1003,5 +1007,73 @@ a:hover[type="more-bttn"] {
         width:250px;
         height:auto;
     }
+
+    /* Familiar Tech */
+    .familiar-tech {
+        /*background-color:rgb(168, 168, 43);*/
+        border:1px solid green;
+        width:95%;
+        height:20%;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        margin-top:0px;
+    }
+
+    .list-title {
+        font-family: var(--JetBrains);
+        font-size:.57em;
+        color:#f8f9fa;
+        font-weight: 400;
+    }
+
+    .tech-list {
+        display: none !important;
+        padding-top:10px;
+        padding-left: 10px;
+        /*background-color:#353535;*/
+        width:80%;
+        height:70%;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
+
+    .list-languages {
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        width: 150px;
+        height: 150px;
+        /*border: 2px solid blue;*/
+        padding-left:2px;
+    }
+    
+    .list-languages > p {
+        font-family:var(--JetBrains);
+        font-size:1.15em;
+        color:#f8f9fa;
+    }
+    
+    
+    .list-tools {
+        display:flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content:space-around;
+        width: 150px;
+        height: 150px;
+        /*border: 2px solid red;*/
+        padding-left:2px;
+    }
+    
+    .list-tools > p {
+        font-family:var(--JetBrains);
+        font-size:1.15em;
+        color:#f8f9fa;
+    }
+
 
 }
