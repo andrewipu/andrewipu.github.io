@@ -926,7 +926,7 @@ a:hover[type="more-bttn"] {
         width:100%;
         flex-direction: column;
         padding: 0px;
-        height:175vh;
+        height:165vh;
         /*height:250vh;*/
         border-radius:0px;
         border:2px solid red;
