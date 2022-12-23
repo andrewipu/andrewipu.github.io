@@ -929,7 +929,7 @@ a:hover[type="more-bttn"] {
         /*height:170vh;*/
         height:70%;
         border-radius:0px;
-        border:2px solid red;
+        /*border:2px solid red;*/
     }
 
     .about-img {
@@ -1011,7 +1011,7 @@ a:hover[type="more-bttn"] {
     /* Familiar Tech */
     .familiar-tech {
         /*background-color:rgb(168, 168, 43);*/
-        border:1px solid green;
+        /*border:1px solid green;*/
         width:95%;
         height:20%;
         display:flex;
@@ -1022,9 +1022,10 @@ a:hover[type="more-bttn"] {
 
     .list-title {
         font-family: var(--JetBrains);
-        font-size:.65em;
+        font-size:1em;
         color:#f8f9fa;
         font-weight: 400;
+        text-align: center;
     }
 
     .tech-list {
