@@ -1028,7 +1028,7 @@ a:hover[type="more-bttn"] {
     }
 
     .tech-list {
-        display: none !important;
+        /*display: none !important;*/
         padding-top:10px;
         padding-left: 10px;
         /*background-color:#353535;*/
@@ -1036,7 +1036,7 @@ a:hover[type="more-bttn"] {
         height:70%;
         display:flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content:space-around;
     }
 
@@ -1053,7 +1053,7 @@ a:hover[type="more-bttn"] {
     
     .list-languages > p {
         font-family:var(--JetBrains);
-        font-size:1.15em;
+        font-size:1em;
         color:#f8f9fa;
     }
     
@@ -1071,7 +1071,7 @@ a:hover[type="more-bttn"] {
     
     .list-tools > p {
         font-family:var(--JetBrains);
-        font-size:1.15em;
+        font-size:1em;
         color:#f8f9fa;
     }
 
