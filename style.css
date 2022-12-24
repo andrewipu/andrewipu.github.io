@@ -922,7 +922,7 @@ a:hover[type="more-bttn"] {
 
     .about-center {
         margin-top:30px;
-        /*border:3px solid red;*/
+        border:3px solid red;
         width:100%;
         flex-direction: column;
         padding: 0px;
@@ -1011,7 +1011,7 @@ a:hover[type="more-bttn"] {
     /* Familiar Tech */
     .familiar-tech {
         /*background-color:rgb(168, 168, 43);*/
-        /*border:1px solid green;*/
+        border:1px solid green;
         width:95%;
         height:20%;
         display:flex;
