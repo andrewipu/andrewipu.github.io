@@ -1135,15 +1135,15 @@ a:hover[type="more-bttn"] {
     .container-worked {
         margin-top: 40px;
         width:100%;
-        height:70%;
-        /*border: 4px solid green;*/
+        height:fit-content;
+        /*border: 4px solid yellow;*/
     }
     
     .container-KMRC {
         border: 1px solid transparent; /* takes care of the margin collapse issue */
         margin:0px auto;
         width:85%;
-        height:80%;
+        height:fit-content;
         padding-top:0px;
         /*border: 5px solid green;*/
         background-color:#002d5e; /*#00346b*/
@@ -1196,24 +1196,41 @@ a:hover[type="more-bttn"] {
         
         width:70%;
         height:fit-content;
-        margin:20px auto;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
         /*border:2px solid yellow;*/
         padding:10px;
         text-align: justify;
         font-family: var(--Roboto);
         line-height:1.5;
-        font-size: 0.5em;
+        font-size: 0.55em;
         background-color:#0456ad;
         box-shadow: 7px 7px #0169d8;
     }
     
     .job_tasks {
-        display: none;
         /*border:2px solid orange;*/
-        margin:30px auto;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:0px;
+        margin-bottom: 20px;
         width:70%;
+        overflow: visible;
         height:fit-content;
         font-family: var(--Roboto);
+    }
+
+    .task_list {
+        font-size: .85em;
+    }
+
+    li {
+        position: relative;
+        padding-left: 22px;
+        line-height:1.4em;
+        margin-bottom: 10px;
     }
     
     .org_description, .job_tasks {
