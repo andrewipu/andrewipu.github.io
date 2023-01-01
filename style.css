@@ -1053,7 +1053,7 @@ a:hover[type="more-bttn"] {
     }
 
     .tech-list {
-        border:1px solid green;
+        /*border:1px solid green;*/
         padding-top:10px;
         padding-left: 10px;
         /*background-color:#353535;*/
