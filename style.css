@@ -920,7 +920,7 @@ a:hover[type="more-bttn"] {
 
     .about-center {
         margin-top:30px;
-        /*border:3px solid green;*/
+        /*border:3px solid red;*/
         width:100%;
         height:fit-content;
         flex-direction: column;
@@ -1034,14 +1034,14 @@ a:hover[type="more-bttn"] {
     /* Familiar Tech */
     .familiar-tech {
         /*background-color:rgb(168, 168, 43);*/
-        display: none !important;
-        border:1px solid green;
+        /*border:1px solid green;*/
         width:95%;
-        height:20%;
+        height:fit-content;
         display:flex;
         flex-direction: column;
         align-items:center;
-        margin-top:-50px;
+        margin-top:40px;
+        margin-bottom: 40px;
     }
 
     .list-title {
