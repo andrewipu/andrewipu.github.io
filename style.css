@@ -1391,7 +1391,7 @@ a:hover[type="more-bttn"] {
     .socials {
         /*border: 2px solid orange;*/
         width:80%;
-        height:50%;
+        height:55%;
         margin-top: 40px;
         display:flex;
         flex-direction: column;
@@ -1401,7 +1401,7 @@ a:hover[type="more-bttn"] {
     
     .socials > a > p {
         font-family: var(--Roboto);
-        font-size:1em;
+        font-size:1.25em;
         color:#f8f9fa;
     }
     
