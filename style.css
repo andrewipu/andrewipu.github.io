@@ -1119,7 +1119,7 @@ a:hover[type="more-bttn"] {
         color:#f8f9fa;
     }
 
-    /* Experience Section */
+    /* Work Section */
 
     .sec-worked {
         background-color:#003772;
@@ -1129,11 +1129,12 @@ a:hover[type="more-bttn"] {
         align-items: flex-start;
         justify-content: center;
         width:100%;
-        height:100vh;
+        height:100%;
+        padding-bottom: 60px;
     }
     
     .container-worked {
-        margin-top: 40px;
+        margin-top: 60px;
         width:100%;
         height:fit-content;
         /*border: 4px solid yellow;*/
@@ -1157,7 +1158,7 @@ a:hover[type="more-bttn"] {
         color:var(--title-color);
         width:fit-content;
         padding:10px 5px;
-        margin-bottom: 20px;
+        margin-bottom: 60px;
         margin-left: 10px;
         box-shadow: 7px 7px var(--title-accent);
         font-size:1.25em;
@@ -1165,12 +1166,12 @@ a:hover[type="more-bttn"] {
     
     
     .worked-dash {
-        width:30%;
+        width:35%;
         height:5px;
         background-color:var(--anchor-accents);
         position:relative;
         left:202px;
-        top:-41px;
+        top:-81px;
     }
     
     .work_place_1 {
@@ -1205,7 +1206,7 @@ a:hover[type="more-bttn"] {
         text-align: justify;
         font-family: var(--Roboto);
         line-height:1.5;
-        font-size: 0.55em;
+        font-size: 0.7em;
         background-color:#0456ad;
         box-shadow: 7px 7px #0169d8;
     }
