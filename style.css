@@ -1362,7 +1362,7 @@ a:hover[type="more-bttn"] {
     /* footer */
 
     .sec-footer {
-        border:4px solid red;
+        /*border:4px solid red;*/
         background-color: #003772;
         width:100%;
         height:50vh;
@@ -1373,10 +1373,9 @@ a:hover[type="more-bttn"] {
     }
     
     .container-footer {
-        /*background-color:rgb(206, 206, 206);*/
-        display:none !important;
-        width:80%;
-        height:40%;
+        /*border:4px solid yellow;*/
+        width:100%;
+        height:100%;
         display:flex;
         flex-direction: column;
         align-items:center;
@@ -1384,33 +1383,43 @@ a:hover[type="more-bttn"] {
     
     .footer-heading {
         font-family:var(--Roboto);
-        font-size:5em;
+        font-size:2.1em;
         color:#f8f9fa;
+        margin-top: 30px;
     }
     
     .socials {
+        /*border: 2px solid orange;*/
         width:80%;
-        height:40%;
+        height:50%;
         margin-top: 40px;
-        /*background-color:yellow;*/
         display:flex;
+        flex-direction: column;
         flex-wrap:wrap;
-        justify-content:space-around;
-        align-items:center;
+        justify-content: space-between;
     }
     
     .socials > a > p {
         font-family: var(--Roboto);
-        font-size:1.5em;
+        font-size:1em;
         color:#f8f9fa;
     }
     
     .socials > a {
         text-decoration:none
     }
+
+    /*re-oredering the socials to make them more symmetric */
+    .socials > a:nth-child(4) { 
+        order:-1;
+    }
+
+    .socials > a:nth-child(1) { 
+        order:-1;
+    }
     
     .foot-note {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         color:#68abf1;
         font-family: var(--JetBrains);
         font-size:0.6em;
