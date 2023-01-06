@@ -75,11 +75,12 @@ li:before {
 ::after {
     padding:0;
     margin:0;
-}
-
-html {
     box-sizing: border-box;
 }
+
+/*html {
+    box-sizing: border-box;
+}*/
 
 body {
     background-color: #f8f9fa;
@@ -1055,18 +1056,26 @@ Might use it someday...
 
     .sec-worked {
         background-color:var(--sec-worked-background-color);
-        display:flex;
+        height:100vh;
         align-items: flex-start;
-        justify-content: center;
-        width:100%;
-        height:100%;
-        padding-bottom: 60px;
+    }
+
+    .worked-title-container {
+        display:flex;
+        /*border:4px solid red;*/
+        width: 95%;
+        align-items: center;
     }
     
     .container-worked {
         margin-top: 60px;
         width:100%;
-        height:fit-content;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        /*border:4px solid green;*/
+        /*height:fit-content;*/
     }
     
     .container-KMRC {
@@ -1086,20 +1095,19 @@ Might use it someday...
         color:var(--title-color);
         width:fit-content;
         padding:10px 5px;
-        margin-bottom: 60px;
         margin-left: 10px;
+        margin-right: 20px;
         box-shadow: 7px 7px var(--title-accent);
         font-size:1.25em;
     }
     
     
     .worked-dash {
-        width:35%;
+        margin-bottom: 60px;
+        width:45%;
         height:5px;
+        position: static;
         background-color:var(--anchor-accents);
-        position:relative;
-        left:202px;
-        top:-81px;
     }
     
     .work_place_1 {
