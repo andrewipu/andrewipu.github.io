@@ -398,8 +398,7 @@ Might use it someday...
 .container-worked {
     margin-top: 0px;
     width:1100px;
-    height:650px;
-    
+    height:650px;  
 }
 
 .container-KMRC {
@@ -749,7 +748,7 @@ Might use it someday...
     ##Screen = B/w 320px to 479px
   */
   
-  @media (min-width: 320px) and (max-width:420px) {
+  @media (min-width: 320px) and (max-width:480px) {
     
     /* General */
 
@@ -1056,7 +1055,7 @@ Might use it someday...
 
     .sec-worked {
         background-color:var(--sec-worked-background-color);
-        height:100vh;
+        height:fit-content;
         align-items: flex-start;
     }
 
@@ -1069,13 +1068,12 @@ Might use it someday...
     
     .container-worked {
         margin-top: 60px;
+        margin-bottom: 60px;
         width:100%;
         display: flex;
         flex-direction: column;
         height: fit-content;
         align-items: center;
-        /*border:4px solid green;*/
-        /*height:fit-content;*/
     }
     
     .container-KMRC {
@@ -1221,6 +1219,7 @@ Might use it someday...
         height:fit-content;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
     
     .project-card-1, .project-card-2, .project-card-3,
