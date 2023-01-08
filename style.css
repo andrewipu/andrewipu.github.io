@@ -762,6 +762,7 @@ Might use it someday...
     header {
         width: 100%;
         height:12vh;
+        min-height: 100px;
         justify-content:center;
         padding-top:5px;
     }
@@ -1291,10 +1292,12 @@ Might use it someday...
         background-color: var(--footer-background-color);
         width:100%;
         height:50vh;
+        min-height:350px;
         display:flex;
         flex-wrap: nowrap;
         justify-content:center;
         align-items:center;
+        /*border:4px solid red;*/
     }
     
     .container-footer {
@@ -1303,6 +1306,7 @@ Might use it someday...
         display:flex;
         flex-direction: column;
         align-items:center;
+        /*border: 4px solid green;*/
     }
     
     .footer-heading {
@@ -1321,6 +1325,10 @@ Might use it someday...
         flex-wrap:wrap;
         justify-content: space-between;
     }
+
+    /*.socials:last-of-type {
+        margin-bottom:50px;
+    }*/
     
     .socials > a > p {
         font-family: var(--Roboto);
