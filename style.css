@@ -727,6 +727,7 @@ Might use it someday...
   /* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
+    >>Skipping this coz I'm not seeing a lot in adoption.
   */
   
   @media (min-width: 481px) and (max-width: 767px) {
