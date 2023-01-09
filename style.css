@@ -708,7 +708,7 @@ Might use it someday...
         min-height: 100px;
         justify-content:center;
         padding-top:5px;
-
+        /*border:4px solid red;*/
     }
 
     .logo_hdr {
@@ -717,6 +717,7 @@ Might use it someday...
         width: 35%;
         height: fit-content;
         margin-top: -30px;
+        margin-bottom: 30px;
         margin-left: 4px;
         position: absolute;
         left: 0px;
@@ -1376,6 +1377,7 @@ Might use it someday...
         width: 35%;
         height: fit-content;
         margin-top: -30px;
+        margin-bottom: 20px;
         margin-left: 4px;
         position: absolute;
         left: 0px;
