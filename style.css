@@ -1324,15 +1324,16 @@ Might use it someday...
     }
 
     .logo_hdr {
-        max-width: 50vw;
-        max-height:50vh;
+        max-width: 30vw;
+        max-height:30vh;
         width: 35%;
         height: fit-content;
-        margin-top: -30px;
+        margin-top: -10px;
         margin-bottom: 30px;
         margin-left: 4px;
         position: absolute;
         left: 0px;
+        /*border:4px solid green;*/
     }
 
     .nav_links {
@@ -1346,7 +1347,7 @@ Might use it someday...
         justify-content:space-around;
         position: sticky;
         margin-left: -90px;
-        /*border:2px solid green;*/
+        /*border:2px solid yellow;*/
     }
 
     .nav_links > a {
