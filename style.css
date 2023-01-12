@@ -1282,11 +1282,11 @@ Might use it someday...
   /* 
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
-  */
+  
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
-    /* CSS */
+    /* CSS 
 
     .resume-button-m {
         display: none;
@@ -1296,7 +1296,7 @@ Might use it someday...
         display:none;
     }
     
-  }
+  }*/
   
   /* 
     ##Device = Tablets, Ipads (portrait)
@@ -1939,28 +1939,8 @@ Might use it someday...
   }
   
   /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    /* CSS */
-
-    .resume-button-m {
-        display: none;
-    }
-
-    .nav-underline {
-        display:none;
-    }
-    
-  }
-  
-  /* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
-    >>Skipping this coz I'm not seeing a lot in adoption.
   */
   
   @media (min-width: 481px) and (max-width: 767px) {
