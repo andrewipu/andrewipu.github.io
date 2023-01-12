@@ -78,10 +78,6 @@ li:before {
     box-sizing: border-box;
 }
 
-/*html {
-    box-sizing: border-box;
-}*/
-
 body {
     background-color: #f8f9fa;
 }
@@ -92,7 +88,6 @@ header {
     display:flex;
     flex-wrap: nowrap;
     justify-content:space-between;
-    /*border-bottom:4px solid black;*/
     align-items:center;
 }
 
