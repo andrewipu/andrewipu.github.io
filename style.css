@@ -3270,8 +3270,8 @@ li:before {
         border-radius:4px;
         padding:10px 20px;
         position:relative;
-        top:0%;
-        left:0%;
+        top:5%;
+        left:5%;
         z-index: 1;
     }
 
