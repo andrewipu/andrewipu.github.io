@@ -95,7 +95,7 @@ header {
     width:100%;
     height:70vh;
     overflow: hidden;
-    min-height: 500px;
+    /*min-height: 500px;*/
     margin-top: 200px;
 }
 
@@ -141,6 +141,7 @@ header {
     position:absolute;
     left:20%;
     z-index: 1;
+    
 }
 
 #home-h4 {
@@ -170,8 +171,8 @@ header {
     border:3px solid var(--anchor-accents);
     border-radius:4px;
     padding:15px 40px;
-    position:relative;
-    top:40px;
+    /*position:relative;
+    top:40px;*/
     font-family: var(--JetBrains);
     color: var(--anchor-accents);
     
@@ -676,8 +677,8 @@ li:before {
     .sec-home {
         width:100%;
         height:70vh;
-        overflow: hidden;
-        min-height: 500px;
+        /*min-height:700px;*/
+        /*border:2px solid red;*/
         margin-top: 200px;
     }
 
@@ -685,6 +686,7 @@ li:before {
         position: relative;
         width: 100%;
         height:70vh;
+        /*border:2px solid green;*/
     }
     
     .bla-home:before {
@@ -701,9 +703,10 @@ li:before {
     }
     
     .div_home {
-        position:absolute;
+        /*border:2px solid yellow;*/
+        position:relative;
         left:20%;
-        z-index: 1;
+        z-index: 0;
     }
     
     #home-h4 {
@@ -734,10 +737,11 @@ li:before {
         border-radius:4px;
         padding:15px 40px;
         position:relative;
-        top:40px;
+        z-index: 1;
+        top:8%;
+        left:20%;
         font-family: var(--JetBrains);
         color: var(--anchor-accents);
-        
     }
 
     /* About Section */
@@ -766,8 +770,10 @@ li:before {
     .sec-about {
         width:100%;
         height:120vh;
+        /*position: relative; Necessary to prevent the "div-home" element from showing behind sec-about when the height is reduced.*/
+        z-index: 1;
         flex-direction: column;
-        overflow: visible;
+        overflow: hidden;
         align-items: center;
         justify-content: center;
         background-color:#003772;
@@ -922,6 +928,7 @@ li:before {
         justify-content: center;
         width:100%;
         height:100vh;
+        overflow: hidden;
     }
     
     .container-worked {
@@ -1044,6 +1051,7 @@ li:before {
         /*border:2px solid red;*/
         width:100%;
         height:120vh;
+        overflow: hidden;
     }
     
     .projects-title {
