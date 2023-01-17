@@ -3207,7 +3207,7 @@ li:before {
     .bla-home {
         position: relative;
         width: 100%;
-        height:75vh;
+        height:85vh;
     }
     
     .bla-home:before {
@@ -3227,13 +3227,13 @@ li:before {
 
     .sec-home {
         width:100%;
-        height:75vh;
+        height:85vh;
         margin-top: 15%;
         /*border:2px solid red;*/
     }
 
     .div_home {
-        border:2px solid yellow;
+        /*border:2px solid yellow;*/
         position: relative;
         z-index: 0;
         top:0px;
@@ -3266,6 +3266,7 @@ li:before {
     }
 
     .see-more_button {
+        display: inline-block;
         border:3px solid var(--anchor-accents);
         border-radius:4px;
         padding:10px 20px;
