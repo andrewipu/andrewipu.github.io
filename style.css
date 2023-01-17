@@ -3233,7 +3233,7 @@ li:before {
     }
 
     .div_home {
-        /*border:2px solid yellow;*/
+        border:2px solid yellow;
         position: relative;
         z-index: 0;
         top:0px;
