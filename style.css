@@ -37,6 +37,13 @@
     box-sizing: border-box;
 }
 
+/*smooooooth scrolling*/
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
 body {
     background-color: #f8f9fa;
 }
