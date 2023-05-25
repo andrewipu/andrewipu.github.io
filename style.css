@@ -359,6 +359,13 @@ header {
     color:var(--work-duration-color);
 }
 
+.job_position {
+    font-family: var(--JetBrains);
+    text-align: center;
+    color:var(--work-duration-color);
+    margin-top: 15px;
+}
+
 .org_description {
     width:70%;
     height:fit-content;
