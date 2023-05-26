@@ -804,8 +804,8 @@ li:before {
     
     .container-worked {
         margin-top: 0px;
-        width:60%;
-        height:650px;
+        min-width: 60%;
+        height: 650px;
     }
     
     .container-KMRC {
